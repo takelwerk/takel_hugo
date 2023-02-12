@@ -1,5 +1,6 @@
 ---
-- name: default
+- name: (molecule) converge
   hosts: all
+  gather_facts: true
   roles:
     - takel_hugo
